@@ -1,0 +1,7 @@
+{
+  "name": "Dhatusena AI Chatbot",
+  "description": "An AI chatbot that simulates a WhatsApp conversation. It speaks Sinhala and is powered by the Gemini API.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
