@@ -24,7 +24,7 @@ const App: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      text: 'Ayubowan! 👋 Mama Dhatusena. Kohomada oyata udaw karanna puluwan? Oyata pictures or voice messages unath ewanna puluwan. 😊',
+      text: 'Halow machan.. Mokada wenne ah 😼🙌. Mokak hari udawwak oneda ? Mama ධාතුසේන. Kohomada oyata udaw karanna puluwan? Oyata pictures or voice messages unath ewanna puluwan. 😊',
       sender: Sender.Bot,
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
     },
@@ -155,7 +155,7 @@ const App: React.FC = () => {
   const handleAboutClick = () => {
     setModalContent({
         title: 'About Dhatusena',
-        body: 'This is an AI Chatbot powered by Gemini. Designed to simulate a friendly conversation and assist with your questions in Sinhala.'
+        body: 'This is an AI Chatbot . Designed to simulate a friendly conversation and assist with your questions in Sinhala. ධාතුසේන උනාට මගෙ නම කරන්නෑ ධාතු වැඩ 😌.. අතීතේ ඒවා වගේම වර්තමානයේ වෙන දේවලුත් දන්නවා හොදට මම 🥳.'
     });
     setShowModal(true);
   }
